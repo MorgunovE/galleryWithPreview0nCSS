@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*.clearfix {*/
+/*  *zoom: 1;*/
+/*}*/
+
+/*.clearfix:before,*/
+/*.clearfix:after {*/
+/*  display: table;*/
+/*  content: "";*/
+/*}*/
+
+/*.clearfix:after {*/
+/*  clear: both;*/
+/*}*/
+
+body {
+  font-size: 12px;
+  background: url(https://st.depositphotos.com/1522993/4737/v/600/depositphotos_47372005-stock-illustration-orange-blue-background-with-triagles.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.container {
+  /*.clearfix*/
+  width: 906px;
+  margin: 10px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.7);
+}
+
+.thumb {
+  position: relative;
+  background: url(https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?size=626&ext=jpg&ga=GA1.2.1977039696.1629504000);
+  width: 300px;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+.thumb .content {
+  color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px;
+}
+.thumb .wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+}
+.thumb .wrapper img {
+  width: 300px;
+  height: 200px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #fff;
+}
